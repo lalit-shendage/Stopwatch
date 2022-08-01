@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5A6265;
+    background-position: center; 
+}
+body{
+    background-image: url(https://ssl.bigstockimages.com/2/8/1/large1500/182236900.jpg);
+    width: 100%;
+    height: 100vh;
+}
+/* header section */
+#stopwatch-image{
+    
+    width: 5vh;
+    height: 5vh;
+}
+#header{
+
+    text-shadow: 0 0 3px #FF0000;
+    margin-top: 2vh;
+    font-size: 200%;
+    width: 50vh;
+    margin-left: 37.5%;
+    height: 10vh;
+    background-color: #E0FFFF;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin: 10px;
+}
+
+
+/* main */
+#main{
+    margin-top: 20vh;
+    align-items: center;
+    border-radius: 10%;
+    border-width: 2px solid black;
+    background-color: rgb(95, 233, 114);
+    margin-left: 40%;
+    margin-top: 30vh;
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+}
+#heading{
+    margin-top: 10px;
+}
+#timer-display{
+
+    font-size: 80px;
+}
+#button-group{
+    margin-top: 30px;
+    display: flex;
+}
+.btn{
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px;
+    border: 1px solid #060606;
+    padding: 20px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: azure;
+    background-color: rgb(3, 3, 74);
+    border-radius: 20%;
+    border: none;
+    font-size: xx-large;
+}
